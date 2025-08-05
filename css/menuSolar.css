@@ -59,3 +59,9 @@
     margin: auto;
     text-align: center;
 }
+
+.meu-texto {
+  color: rgb(104, 104, 232);
+  font-style: italic;
+  font-weight: bold
+}
