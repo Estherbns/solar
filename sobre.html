@@ -7,6 +7,14 @@
     <title>O universo</title>
     <!-- <link href="css/parametro.css" rel="stylesheet">  -  pega os comando css criados no outro arquivo css-->
     <link href="css/menuSolar.css" rel="stylesheet"> 
+    <link href="css/rioantigo.css" rel="stylesheet"> 
+    <link href="css/sobre.css" rel="stylesheet"> 
+
+     <!-- Fonte DOSIS utilizada nesta pagina apenas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -26,28 +34,41 @@
         </div>
 
     </header>
-    <main>
-        <div style="text-align: center;">
-            <h1 id="titulo01"> Sobre</h1>
+    <main class="conteudo-principal">
+        <div class="titulo-principal">
+            <h2 id="titulo01"> Sobre</h2>
              <hr>
         </div>
 
-         <section>          
+         <section class="sobre">
+            <h3 class="cabecalho-secao">Quer nos conhecer? Veja nosso vídeo abaixo</h3>
+            <div class="youtube-sobrenos">
+                <video controls>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-oie4EFLs_0?si=gKzw2sBEeBeLZ8Yn" 
+                        title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-          <p>O objetivo deste site é apresentar informações sobre o universo e curiosidades . </p>
-          <br>
-            
-            As fontes utilizadas são:<br>
-            <ul>
-                <li><a href = "http://planeta-terra.info/sistema-solar.html">Planeta Terra</a></li>
-                <li><a href = "http://www.sobiologia.com.br/conteudos/Universo/sistemasolar.php">Só Biologia </a></li>
-                <li><a href = "https://pt.wikipedia.org/wiki/Lua"> Wikipedia </a></li>
-                <li><a href = "http://www.brasilescola.com/geografia/cometa.htm">Brasil Escola</a></li>              
+                            <p>Seu navegador não suporta este vídeo</p>
 
-            </ul>          
+                        </iframe>
+                </video>                
+            </div>
 
-        <section>
-           
+        </section>    
+        
+         <section class="sobre">
+            <h3 class="cabecalho-secao">Onde estamos</h3>
+            <div class="mapa-sobrenos">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.082509612983!2d-43.18810712504402!3d-22.94718823931552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fee737c17c5%3A0x79ec9faf3426f560!2sSenac%20Botafogo!5e0!3m2!1spt-BR!2sbr!4v1755037761638!5m2!1spt-BR!2sbr" 
+                    width="80%" height="450" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                           
+            </div>
+        </section>
        
     </main>
 
