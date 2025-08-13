@@ -31,6 +31,23 @@
     right: 10px;
 }
 
+.meu-texto {
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    color: rgb(75, 39, 205); 
+    font-style: italic;
+    font-size: 18px;     
+    font-weight: bold;
+}
+
+.meu-texto2 {
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    color: rgb(58, 55, 229);    
+    font-size: 24px;     
+    font-weight: bold;
+}
+
 .hmenu ul li {
     display: inline;
     margin: 0 0 0 15px;
@@ -60,8 +77,3 @@
     text-align: center;
 }
 
-.meu-texto {
-  color: rgb(104, 104, 232);
-  font-style: italic;
-  font-weight: bold
-}
